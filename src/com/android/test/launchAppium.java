@@ -123,9 +123,9 @@ public class launchAppium {
 		signInPage.clickOnSignIn();
 		//excelRead.waitForScreenToLoad(driver, element, seconds);
 		util.screenshot(driver, "APPium");
-		signInPage.EnterUserName("9868599674");
+		signInPage.EnterUserName("");
 		signInPage.clickUserNameContinue();
-		signInPage.enterPassword("myparents1");
+		signInPage.enterPassword("");
 		Thread.sleep(2000);
 		signInPage.clickPasswordContinueBtn();
 		items = util.readExcel(file_path, "amazon.xlsx", "amazon");
