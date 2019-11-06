@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27181" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:31 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27181" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:31 IST">
+      <class name="com.android.test.launchAppium">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:com.android.test.launchAppium@1f7030a6]" name="startServer" is-config="true" duration-ms="50" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method status="FAIL" signature="test_Server()[pri:0, instance:com.android.test.launchAppium@1f7030a6]" name="test_Server" duration-ms="27071" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:31 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element 'By.xpath: //android.widget.ImageView[@index='1']' does not exist in DOM anymore (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.74 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WKWIN3074433', ip: '10.207.122.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=in.amazon.mShop.android.shopping, statBarHeight=66, noReset=true, viewportRect={top=66, left=0, width=1080, height=1962}, deviceName=emulator-5554, avd=Pixel_3_API_28, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=in.amazon.mShop.android.shopping, appActivity=com.amazon.mShop.home.HomeActivity, noReset=true, platformVersion=9.0, automationName=UiAutomator2, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=emulator-5554, avd=Pixel_3_API_28}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.amazon.mShop.home.HomeActivity, pixelRatio=2.75, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=440, deviceModel=Android SDK built for x86}]
+Session ID: 35382e78-f483-4eed-bacc-158f0085d092]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //android.widget.ImageView[@index='1']' does not exist in DOM anymore (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.74 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'WKWIN3074433', ip: '10.207.122.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=in.amazon.mShop.android.shopping, statBarHeight=66, noReset=true, viewportRect={top=66, left=0, width=1080, height=1962}, deviceName=emulator-5554, avd=Pixel_3_API_28, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=in.amazon.mShop.android.shopping, appActivity=com.amazon.mShop.home.HomeActivity, noReset=true, platformVersion=9.0, automationName=UiAutomator2, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=emulator-5554, avd=Pixel_3_API_28}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.amazon.mShop.home.HomeActivity, pixelRatio=2.75, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=440, deviceModel=Android SDK built for x86}]
+Session ID: 35382e78-f483-4eed-bacc-158f0085d092
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:37)
+at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+at com.android.pageObjects.SignInPage.clickOnSignIn(SignInPage.java:85)
+at com.android.test.launchAppium.test_Server(launchAppium.java:123)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Server -->
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:com.android.test.launchAppium@1f7030a6]" name="stopServer" is-config="true" duration-ms="0" started-at="2019-11-06T10:21:31 IST" finished-at="2019-11-06T10:21:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- com.android.test.launchAppium -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon test suite">
+	<test name="Login and Add items Test" annotations="JDK" preserve-order="true">
+		<classes>
+			<class name="com.android.test.launchAppium"/>
+		</classes>
+	</test>
+</suite>
