@@ -1,37 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="2" total="10" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27181" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:31 IST">
+  <suite name="Default suite" duration-ms="220986" started-at="2019-11-18T00:59:09 IST" finished-at="2019-11-18T01:02:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27181" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:31 IST">
-      <class name="com.android.test.launchAppium">
-        <test-method status="PASS" signature="startServer()[pri:0, instance:com.android.test.launchAppium@1f7030a6]" name="startServer" is-config="true" duration-ms="50" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:04 IST">
+    <test name="Default test" duration-ms="220986" started-at="2019-11-18T00:59:09 IST" finished-at="2019-11-18T01:02:50 IST">
+      <class name="com.android.test.LaunchAppium">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="startServer" is-config="true" duration-ms="9644" started-at="2019-11-18T00:59:09 IST" finished-at="2019-11-18T00:59:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startServer -->
-        <test-method status="FAIL" signature="test_Server()[pri:0, instance:com.android.test.launchAppium@1f7030a6]" name="test_Server" duration-ms="27071" started-at="2019-11-06T10:21:04 IST" finished-at="2019-11-06T10:21:31 IST">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method status="PASS" signature="search()[pri:1, instance:com.android.test.LaunchAppium@51e2adc7]" name="search" duration-ms="3865" started-at="2019-11-18T00:59:19 IST" finished-at="2019-11-18T00:59:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="1283" started-at="2019-11-18T00:59:23 IST" finished-at="2019-11-18T00:59:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=LaunchAppium.search()[pri:1, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7]" name="searchItems" duration-ms="29445" started-at="2019-11-18T00:59:24 IST" data-provider="items" finished-at="2019-11-18T00:59:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="1088" started-at="2019-11-18T00:59:54 IST" finished-at="2019-11-18T00:59:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=LaunchAppium.searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7]" name="searchItems" duration-ms="40409" started-at="2019-11-18T00:59:55 IST" data-provider="items" finished-at="2019-11-18T01:00:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple iPad air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="973" started-at="2019-11-18T01:00:35 IST" finished-at="2019-11-18T01:00:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=LaunchAppium.searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7]" name="searchItems" duration-ms="30445" started-at="2019-11-18T01:00:36 IST" data-provider="items" finished-at="2019-11-18T01:01:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headphones sony]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="870" started-at="2019-11-18T01:01:07 IST" finished-at="2019-11-18T01:01:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=LaunchAppium.searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7]" name="searchItems" duration-ms="29259" started-at="2019-11-18T01:01:08 IST" data-provider="items" finished-at="2019-11-18T01:01:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kindle device]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="914" started-at="2019-11-18T01:01:37 IST" finished-at="2019-11-18T01:01:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=LaunchAppium.searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7]" name="searchItems" duration-ms="28185" started-at="2019-11-18T01:01:38 IST" data-provider="items" finished-at="2019-11-18T01:02:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[speakers for computer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="715" started-at="2019-11-18T01:02:06 IST" finished-at="2019-11-18T01:02:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=LaunchAppium.searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7]" name="searchItems" duration-ms="28082" started-at="2019-11-18T01:02:07 IST" data-provider="items" finished-at="2019-11-18T01:02:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[camera canon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="795" started-at="2019-11-18T01:02:35 IST" finished-at="2019-11-18T01:02:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=LaunchAppium.searchItems(java.lang.String)[pri:3, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="addToCart()[pri:4, instance:com.android.test.LaunchAppium@51e2adc7]" name="addToCart" duration-ms="13925" started-at="2019-11-18T01:02:36 IST" finished-at="2019-11-18T01:02:50 IST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
-              <![CDATA[The element 'By.xpath: //android.widget.ImageView[@index='1']' does not exist in DOM anymore (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.74 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[java.lang.IllegalArgumentException: Unable to compile '//android.widget.Button[contains(text(),‘Deliver to this address’)]'. See Cause. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 158 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WKWIN3074433', ip: '10.207.122.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
+System info: host: 'WKWIN3074433', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=in.amazon.mShop.android.shopping, statBarHeight=66, noReset=true, viewportRect={top=66, left=0, width=1080, height=1962}, deviceName=emulator-5554, avd=Pixel_3_API_28, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=in.amazon.mShop.android.shopping, appActivity=com.amazon.mShop.home.HomeActivity, noReset=true, platformVersion=9.0, automationName=UiAutomator2, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=emulator-5554, avd=Pixel_3_API_28}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.amazon.mShop.home.HomeActivity, pixelRatio=2.75, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=440, deviceModel=Android SDK built for x86}]
-Session ID: 35382e78-f483-4eed-bacc-158f0085d092]]>
+Capabilities [{appPackage=in.amazon.mShop.android.shopping, statBarHeight=63, noReset=true, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, avd=Pixel_2_API_28, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=in.amazon.mShop.android.shopping, appActivity=com.amazon.mShop.home.HomeActivity, noReset=true, platformVersion=9.0, automationName=UiAutomator2, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=emulator-5554, avd=Pixel_2_API_28}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.amazon.mShop.home.HomeActivity, pixelRatio=2.625, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 337bf3b9-d8d1-4a61-adf1-7f78ec83f6fa
+*** Element info: {Using=xpath, value=//android.widget.Button[contains(text(),‘Deliver to this address’)]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: //android.widget.ImageView[@index='1']' does not exist in DOM anymore (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.74 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: java.lang.IllegalArgumentException: Unable to compile '//android.widget.Button[contains(text(),‘Deliver to this address’)]'. See Cause. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 158 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'WKWIN3074433', ip: '10.207.122.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
+System info: host: 'WKWIN3074433', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_192'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=in.amazon.mShop.android.shopping, statBarHeight=66, noReset=true, viewportRect={top=66, left=0, width=1080, height=1962}, deviceName=emulator-5554, avd=Pixel_3_API_28, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=in.amazon.mShop.android.shopping, appActivity=com.amazon.mShop.home.HomeActivity, noReset=true, platformVersion=9.0, automationName=UiAutomator2, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=emulator-5554, avd=Pixel_3_API_28}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, deviceScreenSize=1080x2160, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.amazon.mShop.home.HomeActivity, pixelRatio=2.75, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=440, deviceModel=Android SDK built for x86}]
-Session ID: 35382e78-f483-4eed-bacc-158f0085d092
+Capabilities [{appPackage=in.amazon.mShop.android.shopping, statBarHeight=63, noReset=true, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, avd=Pixel_2_API_28, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=in.amazon.mShop.android.shopping, appActivity=com.amazon.mShop.home.HomeActivity, noReset=true, platformVersion=9.0, automationName=UiAutomator2, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=emulator-5554, avd=Pixel_2_API_28}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.amazon.mShop.home.HomeActivity, pixelRatio=2.625, locationContextEnabled=false, autoGrantPermissions=true, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 337bf3b9-d8d1-4a61-adf1-7f78ec83f6fa
+*** Element info: {Using=xpath, value=//android.widget.Button[contains(text(),‘Deliver to this address’)]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -42,19 +191,21 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
 at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:37)
-at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:368)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-at com.android.pageObjects.SignInPage.clickOnSignIn(SignInPage.java:85)
-at com.android.test.launchAppium.test_Server(launchAppium.java:123)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:129)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at com.android.pageObjects.AddToCartPage.clickDeliverToThisBtn(AddToCartPage.java:37)
+at com.android.test.LaunchAppium.addToCart(LaunchAppium.java:125)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -85,15 +236,26 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Server -->
-        <test-method status="PASS" signature="stopServer()[pri:0, instance:com.android.test.launchAppium@1f7030a6]" name="stopServer" is-config="true" duration-ms="0" started-at="2019-11-06T10:21:31 IST" finished-at="2019-11-06T10:21:31 IST">
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="getResult" is-config="true" duration-ms="446" started-at="2019-11-18T01:02:50 IST" finished-at="2019-11-18T01:02:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=FAILURE method=LaunchAppium.addToCart()[pri:4, instance:com.android.test.LaunchAppium@51e2adc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:com.android.test.LaunchAppium@51e2adc7]" name="stopServer" is-config="true" duration-ms="231" started-at="2019-11-18T01:02:50 IST" finished-at="2019-11-18T01:02:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopServer -->
-      </class> <!-- com.android.test.launchAppium -->
+      </class> <!-- com.android.test.LaunchAppium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

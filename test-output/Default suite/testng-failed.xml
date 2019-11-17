@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.android.test.launchAppium">
+      <class name="com.android.test.LaunchAppium">
         <methods>
           <include name="startServer"/>
           <include name="stopServer"/>
-          <include name="test_Server"/>
+          <include name="getResult"/>
+          <include name="addToCart"/>
         </methods>
-      </class> <!-- com.android.test.launchAppium -->
+      </class> <!-- com.android.test.LaunchAppium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
